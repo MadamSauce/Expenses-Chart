@@ -8,59 +8,32 @@
   <title>Frontend Mentor | Expenses chart component</title>
 </head>
 <body>
-<div class="container">
-  <section class="balance">
-    <div class="balance-text">
-      <p class="balance-p">My balance</p>
-      <p class="balance1">$921.48</p>
+  <div class="container">
+    <div class="upper-part">
+      <div class="left">
+        <small>My balance</small>
+        <h2>$921.48</h2>
+      </div>
+      <img src="./images/logo.svg" alt="" class="right">
     </div>
-    <img src="/images/logo.svg" alt="logo">
-  </section>
-  <section class="chart">
-    <h1 class="chart-title">Spending - Last 7 days</h1>
-    <div class="bar-graph">
-      <div class="days mon">
-        <div class="bar1"></div>
-        <p>mon</p>
+    <div class="lower-part">
+      <h2>Spending - Last 7 days</h2>
+      <!-- Charts here -->
+      <div class="chart-container">
+        <!-- I will add charts here later -->
       </div>
-      <div class="days tues">
-        <div class="bar2"></div>
-        <p>tue</p>
-      </div>
-      <div class="days wed">
-        <div class="bar3"></div>
-        <p>wed</p>
-      </div>
-      <div class="days thu">
-        <div class="bar4"></div>
-        <p>thu</p>
-      </div>
-      <div class="days fri">
-        <div class="bar5"></div>
-        <p>fri</p>
-      </div>
-      <div class="days sat">
-        <div class="bar6"></div>
-        <p>sat</p>
-      </div>
-      <div class="days sun">
-        <div class="bar7"></div>
-        <p>sun</p>
+      <hr>
+      <div class="stats">
+        <div class="left">
+          <small>Total this month</small>
+          <h1>$478.33</h1>
+        </div>
+        <div class="right">
+          <b>+2.4%</b>
+          <small>from last month</small>
       </div>
     </div>
-    <div class="line"></div>
-    <div class="total">
-      <div class="total-left">
-        <p>Total this month</p>
-        <h3 class="price">$478.33</h3>
-      </div>
-      <div class="total-right">
-        <p class="bold">+2.4%</p>
-        <p>from last month</p>
-      </div>
-    </div>
-  </section>
-</div>
+  </div>
 
 <script src="/app.js"></script>
   
